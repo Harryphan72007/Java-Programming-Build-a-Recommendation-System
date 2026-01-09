@@ -2,15 +2,18 @@
 🎬 Movie Recommender System (Java)
 <img width="1060" height="830" alt="image" src="https://github.com/user-attachments/assets/dc253bea-815e-4744-84ad-a6fe1a514a32" />
 
-This repository contains my work for a Java-based recommender systems course, where I implemented a movie recommendation engine using collaborative filtering techniques.
+🎬 Movie Recommender System (Java)
 
-The project focuses on analyzing user ratings to recommend movies that a user is likely to enjoy, based on similarities between users.
+This repository contains my work for the course Java Programming: Build a Recommendation System, where I implemented a movie recommendation engine using collaborative filtering techniques in Java.
 
+The project analyzes user ratings to recommend movies a user is likely to enjoy based on similarities between users.
 📚 Course Overview
 
-This project was completed as part of an online course offered through
-Coursera in collaboration with
-Duke University.
+📚 Course Information
+
+This project was completed as part of
+Java Programming: Build a Recommendation System, offered on
+Coursera
 
 The course emphasizes:
 
