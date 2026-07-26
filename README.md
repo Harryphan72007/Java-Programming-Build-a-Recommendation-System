@@ -1,94 +1,32 @@
-# Java-Programming-Build-a-Recommendation-System
-🎬 Movie Recommender System (Java)
-<img width="1060" height="830" alt="image" src="https://github.com/user-attachments/assets/dc253bea-815e-4744-84ad-a6fe1a514a32" />
+# Java Movie Recommendation System
 
-🎬 Movie Recommender System (Java)
+Course project for Coursera's *Java Programming: Build a Recommendation System*. The program recommends movies from user ratings with collaborative-filtering techniques and writes HTML output.
 
-This repository contains my work for the course Java Programming: Build a Recommendation System, where I implemented a movie recommendation engine using collaborative filtering techniques in Java.
+![Example output](https://github.com/user-attachments/assets/dc253bea-815e-4744-84ad-a6fe1a514a32)
 
-The project analyzes user ratings to recommend movies a user is likely to enjoy based on similarities between users.
-📚 Course Overview
+## Features
 
-📚 Course Information
+- Stores movies, raters, and ratings from CSV data
+- Computes user-rating similarity and weighted recommendations
+- Supports filters such as genre, director, runtime, and release year
+- Sorts recommendations and produces an HTML table
 
-This project was completed as part of
-Java Programming: Build a Recommendation System, offered on
-Coursera
+## Technology
 
-The course emphasizes:
+Java, object-oriented design, CSV processing, and generated HTML.
 
-Object-Oriented Programming in Java
+## Project structure
 
-Data structures and collections
+- `Step 1 and 2/` — introductory ratings and average-rating exercises
+- `StepThree/` — filters and movie-database work
+- `StepFour/` — similarity-based recommendations
 
-Algorithmic thinking
+Compiled `.class` and BlueJ metadata files are retained from the course workspace. The repository is an educational project, not a production recommendation service.
 
-Building recommender systems from scratch
+## Run
 
-🛠️ Technologies Used
+Open the relevant `.java` files in a Java IDE or compile the source files with a compatible JDK. Run the course runner classes after placing the CSV files at the paths expected by the source code.
 
-Java
+## Status and attribution
 
-Object-Oriented Design
-
-CSV data processing
-
-HTML output for web-based recommendations
-
-🚀 Project Features
-
-Stores and manages movie ratings using a RaterDatabase
-
-Calculates similarity scores between users
-
-Recommends movies using collaborative filtering
-
-Supports filters such as:
-
-Minimum number of raters
-
-Movie attributes (via filters)
-
-Outputs recommendations as an HTML table for web display
-
-🧠 Core Concepts Implemented
-
-Dot product similarity
-
-Weighted average ratings
-
-Filtering and sorting recommendations
-
-Separation of concerns using multiple classes:
-
-FourthRatings
-
-MovieDatabase
-
-RaterDatabase
-
-Filter interfaces
-
-📄 Example Output
-
-The recommender produces an HTML table displaying:
-
-Ranked movie recommendations
-
-Movie titles
-
-Recommendation scores
-
-If no recommendations are available, the system gracefully informs the user.
-
-🎯 Learning Outcomes
-
-Through this project, I gained experience with:
-
-Designing modular Java programs
-
-Implementing recommendation algorithms
-
-Working with real-world datasets
-
-Generating dynamic HTML from Java
+Completed course exercises. This repository is based on the Coursera course materials and should be read as coursework rather than an independent production system.
