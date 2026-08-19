@@ -62,6 +62,9 @@ Use the course-supported Java/BlueJ environment and the required Duke course lib
 5. Run the tester class for the course milestone you want to reproduce.
 6. Open the generated HTML output in a browser.
 
+A repository-level `.gitignore` keeps regenerated `.class` files and unrelated IDE build
+directories out of version control while preserving the BlueJ project metadata used by the course.
+
 A standalone CLI build will require first adding explicit dependency and build configuration.
 
 ## Example output
