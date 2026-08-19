@@ -1,0 +1,14 @@
+# Java build outputs
+*.class
+build/
+out/
+target/
+
+# IDE metadata that is not part of the BlueJ course project
+.idea/
+.vscode/
+*.iml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
